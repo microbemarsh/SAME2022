@@ -25,8 +25,6 @@ a = read.delim(file = "emu-combined-abundance-genus.tsv")
 ###############___Yes_this_is_ugly_but_who_cares_if_it_works___################
 ###############################################################################
 
-
-
 b = a %>%
   rename("SLR69" = "X22_08_26_SLR69") %>%
   rename("SLR68" = "X22_08_26_SLR68") %>%
